@@ -1,75 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic_Conn_01x03
+# Audio_Jack-Xenir
 #
-DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -150 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Jack-DC
-#
-DEF Connector_Jack-DC J 0 40 Y Y 1 F N
-F0 "J" 0 210 50 H V C CNN
-F1 "Connector_Jack-DC" 0 -200 50 H V C CNN
-F2 "" 50 -40 50 H I C CNN
-F3 "" 50 -40 50 H I C CNN
-ALIAS Jack-DC
-$FPLIST
- BarrelJack*
-$ENDFPLIST
-DRAW
-A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
-A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
-S -200 150 200 -150 0 1 10 f
-S 145 125 -130 75 0 1 10 F
-P 2 0 1 10 200 100 150 100 N
-P 6 0 1 10 -150 -100 -100 -100 -50 -50 0 -100 100 -100 200 -100 N
-X ~ 1 300 100 100 L 50 50 1 1 P
-X ~ 2 300 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R_POT
-#
-DEF Device_R_POT RV 0 40 Y N 1 F N
-F0 "RV" -175 0 50 V V C CNN
-F1 "Device_R_POT" -100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Potentiometer*
-$ENDFPLIST
-DRAW
-S 40 100 -40 -100 0 1 10 N
-P 2 0 1 0 100 0 60 0 N
-P 4 0 1 0 45 0 90 20 90 -20 45 0 F
-X 1 1 0 150 50 D 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
-X 3 3 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# ESP32-Tayloe-Mixer-rescue_Audio_Jack-Xenir
-#
-DEF ESP32-Tayloe-Mixer-rescue_Audio_Jack-Xenir J 0 40 Y Y 1 F N
+DEF Audio_Jack-Xenir J 0 40 Y Y 1 F N
 F0 "J" -400 -350 50 H V C CNN
-F1 "ESP32-Tayloe-Mixer-rescue_Audio_Jack-Xenir" 0 0 50 H V C CNN
+F1 "Audio_Jack-Xenir" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -91,11 +27,11 @@ X TSH TSH 200 -450 100 L 0 0 1 1 B
 ENDDRAW
 ENDDEF
 #
-# ESP32-Tayloe-Mixer-rescue_BNC-Xenir
+# BNC-Xenir
 #
-DEF ESP32-Tayloe-Mixer-rescue_BNC-Xenir J 0 40 Y Y 1 F N
+DEF BNC-Xenir J 0 40 Y Y 1 F N
 F0 "J" -100 -150 50 H V C CNN
-F1 "ESP32-Tayloe-Mixer-rescue_BNC-Xenir" 0 150 50 H V C CNN
+F1 "BNC-Xenir" 0 150 50 H V C CNN
 F2 "" 0 150 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 DRAW
@@ -106,11 +42,11 @@ X OUT S 200 0 200 L 0 0 1 1 B
 ENDDRAW
 ENDDEF
 #
-# ESP32-Tayloe-Mixer-rescue_Cap_Polarized-Xenir
+# Cap_Polarized-Xenir
 #
-DEF ESP32-Tayloe-Mixer-rescue_Cap_Polarized-Xenir C 0 40 Y Y 1 F N
+DEF Cap_Polarized-Xenir C 0 40 Y Y 1 F N
 F0 "C" 0 -225 28 H V C CNN
-F1 "ESP32-Tayloe-Mixer-rescue_Cap_Polarized-Xenir" 0 50 28 H V C CNN
+F1 "Cap_Polarized-Xenir" 0 50 28 H V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 DRAW
@@ -123,11 +59,11 @@ X ~ 2 150 -100 110 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ESP32-Tayloe-Mixer-rescue_Capacitor-Xenir
+# Capacitor-Xenir
 #
-DEF ESP32-Tayloe-Mixer-rescue_Capacitor-Xenir C 0 40 Y Y 1 F N
+DEF Capacitor-Xenir C 0 40 Y Y 1 F N
 F0 "C" 0 125 28 H V C CNN
-F1 "ESP32-Tayloe-Mixer-rescue_Capacitor-Xenir" 0 -125 28 H V C CNN
+F1 "Capacitor-Xenir" 0 -125 28 H V C CNN
 F2 "" 0 -150 50 H I C CNN
 F3 "" 0 -150 50 H I C CNN
 DRAW
@@ -138,11 +74,11 @@ X ~ 2 150 0 110 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ESP32-Tayloe-Mixer-rescue_ESP32-15-PIN-Xenir
+# ESP32-15-PIN-Xenir
 #
-DEF ESP32-Tayloe-Mixer-rescue_ESP32-15-PIN-Xenir U 0 40 Y Y 1 F N
+DEF ESP32-15-PIN-Xenir U 0 40 Y Y 1 F N
 F0 "U" -601 1026 50 H V L BNN
-F1 "ESP32-Tayloe-Mixer-rescue_ESP32-15-PIN-Xenir" -601 -1101 50 H V L BNN
+F1 "ESP32-15-PIN-Xenir" -601 -1101 50 H V L BNN
 F2 "" -600 1200 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "4" 0 0 50 H I L BNN "PARTREV"
@@ -181,11 +117,11 @@ X IO25 9 -800 100 200 R 40 40 0 0 B
 ENDDRAW
 ENDDEF
 #
-# ESP32-Tayloe-Mixer-rescue_FST3253-Xenir
+# FST3253-Xenir
 #
-DEF ESP32-Tayloe-Mixer-rescue_FST3253-Xenir U 0 40 Y Y 1 F N
+DEF FST3253-Xenir U 0 40 Y Y 1 F N
 F0 "U" -100 -600 50 H V C CNN
-F1 "ESP32-Tayloe-Mixer-rescue_FST3253-Xenir" -450 -1300 50 H V C CNN
+F1 "FST3253-Xenir" -450 -1300 50 H V C CNN
 F2 "" -100 -600 50 H I C CNN
 F3 "" -100 -600 50 H I C CNN
 DRAW
@@ -212,11 +148,11 @@ X 2A 9 -1150 -950 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# ESP32-Tayloe-Mixer-rescue_Inductor-Xenir
+# Inductor-Xenir
 #
-DEF ESP32-Tayloe-Mixer-rescue_Inductor-Xenir L 0 40 Y Y 1 F N
+DEF Inductor-Xenir L 0 40 Y Y 1 F N
 F0 "L" 0 -50 50 H V C CNN
-F1 "ESP32-Tayloe-Mixer-rescue_Inductor-Xenir" 0 100 50 H V C CNN
+F1 "Inductor-Xenir" 0 100 50 H V C CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 DRAW
@@ -229,11 +165,11 @@ X 2 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ESP32-Tayloe-Mixer-rescue_LM358-Xenir
+# LM358-Xenir
 #
-DEF ESP32-Tayloe-Mixer-rescue_LM358-Xenir U 0 40 Y Y 3 L N
+DEF LM358-Xenir U 0 40 Y Y 3 L N
 F0 "U" -150 -50 70 H V L BNN
-F1 "ESP32-Tayloe-Mixer-rescue_LM358-Xenir" -50 250 70 H V L BNN
+F1 "LM358-Xenir" -50 250 70 H V L BNN
 F2 "" -50 -50 50 H I C CNN
 F3 "" -50 -50 50 H I C CNN
 DRAW
@@ -266,11 +202,11 @@ X P$V+ 8 -100 300 100 D 50 0 3 0 B
 ENDDRAW
 ENDDEF
 #
-# ESP32-Tayloe-Mixer-rescue_PCBARTISTS-ES8388-Xenir
+# PCBARTISTS-ES8388-Xenir
 #
-DEF ESP32-Tayloe-Mixer-rescue_PCBARTISTS-ES8388-Xenir U 0 40 Y Y 1 F N
+DEF PCBARTISTS-ES8388-Xenir U 0 40 Y Y 1 F N
 F0 "U" -50 -50 50 H V C CNN
-F1 "ESP32-Tayloe-Mixer-rescue_PCBARTISTS-ES8388-Xenir" 0 -150 50 H V C CNN
+F1 "PCBARTISTS-ES8388-Xenir" 0 -150 50 H V C CNN
 F2 "" -50 -50 50 H I C CNN
 F3 "" -50 -50 50 H I C CNN
 DRAW
@@ -294,11 +230,11 @@ X ASDOUT 8 -800 50 100 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# ESP32-Tayloe-Mixer-rescue_Resistor-Xenir
+# Resistor-Xenir
 #
-DEF ESP32-Tayloe-Mixer-rescue_Resistor-Xenir R 0 40 Y Y 1 F N
+DEF Resistor-Xenir R 0 40 Y Y 1 F N
 F0 "R" 0 75 28 H V C CNN
-F1 "ESP32-Tayloe-Mixer-rescue_Resistor-Xenir" 0 -75 28 H V C CNN
+F1 "Resistor-Xenir" 0 -75 28 H V C CNN
 F2 "" 0 -100 50 H I C CNN
 F3 "" 0 -100 50 H I C CNN
 DRAW
@@ -316,11 +252,11 @@ X 2 2 200 0 100 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ESP32-Tayloe-Mixer-rescue_T50_SPLITTER-Xenir
+# T50_SPLITTER-Xenir
 #
-DEF ESP32-Tayloe-Mixer-rescue_T50_SPLITTER-Xenir T 0 40 Y Y 1 F N
+DEF T50_SPLITTER-Xenir T 0 40 Y Y 1 F N
 F0 "T" 0 -1250 50 H V C CNN
-F1 "ESP32-Tayloe-Mixer-rescue_T50_SPLITTER-Xenir" 0 -100 50 H V C CNN
+F1 "T50_SPLITTER-Xenir" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -355,11 +291,11 @@ X C3B C3B 350 -800 200 L 0 0 1 1 B
 ENDDRAW
 ENDDEF
 #
-# ESP32-Tayloe-Mixer-rescue_Trimpot-Xenir
+# Trimpot-Xenir
 #
-DEF ESP32-Tayloe-Mixer-rescue_Trimpot-Xenir VR 0 40 Y Y 1 F N
+DEF Trimpot-Xenir VR 0 40 Y Y 1 F N
 F0 "VR" -150 -300 50 H V C CNN
-F1 "ESP32-Tayloe-Mixer-rescue_Trimpot-Xenir" 0 100 50 H V C CNN
+F1 "Trimpot-Xenir" 0 100 50 H V C CNN
 F2 "" -150 -300 50 H I C CNN
 F3 "" -150 -300 50 H I C CNN
 DRAW
@@ -379,11 +315,11 @@ X CCW 3 200 -150 100 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ESP32-Tayloe-Mixer-rescue_si5351-Xenir
+# si5351-Xenir
 #
-DEF ESP32-Tayloe-Mixer-rescue_si5351-Xenir U 0 40 Y Y 1 F N
+DEF si5351-Xenir U 0 40 Y Y 1 F N
 F0 "U" -300 -450 50 H V C CNN
-F1 "ESP32-Tayloe-Mixer-rescue_si5351-Xenir" -250 -350 50 H V C CNN
+F1 "si5351-Xenir" -250 -350 50 H V C CNN
 F2 "" -300 -450 50 H I C CNN
 F3 "" -300 -450 50 H I C CNN
 DRAW
@@ -398,148 +334,6 @@ X GND GND -250 -1000 200 U 50 50 1 1 B
 X SCL SCL 450 -500 200 L 50 50 1 1 B
 X SDA SDA 450 -300 200 L 50 50 1 1 B
 X VIN VIN -250 100 200 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Mechanical_MountingHole
-#
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
-ENDDRAW
-ENDDEF
-#
-# Regulator_Linear_AMS1117
-#
-DEF Regulator_Linear_AMS1117 U 0 30 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "Regulator_Linear_AMS1117" 0 125 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" 0 200 50 H I C CNN
-F3 "" 100 -250 50 H I C CNN
-ALIAS NCP1117-ADJ_SOT223 AMS1117
-$FPLIST
- SOT?223*TabPin2*
-$ENDFPLIST
-DRAW
-S -200 -200 200 75 0 1 10 f
-X ADJ 1 0 -300 100 U 50 50 1 1 I
-X VO 2 300 0 100 L 50 50 1 1 w
-X VI 3 -300 0 100 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Regulator_Linear_MCP1703A-2502_SOT223
-#
-DEF Regulator_Linear_MCP1703A-2502_SOT223 U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "Regulator_Linear_MCP1703A-2502_SOT223" 0 125 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" 0 200 50 H I C CNN
-F3 "" 0 -50 50 H I C CNN
-ALIAS MCP1703A-1202_SOT223 MCP1703A-1502_SOT223 MCP1703A-1802_SOT223 MCP1703A-2502_SOT223 MCP1703A-2802_SOT223 MCP1703A-3002_SOT223 MCP1703A-4002_SOT223 MCP1703A-5002_SOT223
-$FPLIST
- SOT?223*TabPin2*
-$ENDFPLIST
-DRAW
-S -200 -200 200 75 0 1 10 f
-X VI 1 -300 0 100 R 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 W
-X VO 3 300 0 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# power_+12V
-#
-DEF power_+12V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+12V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +12V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+2V5
-#
-DEF power_+2V5 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+2V5" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +2V5 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+3.3V
-#
-DEF power_+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+3.3VA
-#
-DEF power_+3.3VA #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3.3VA" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3.3VA 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

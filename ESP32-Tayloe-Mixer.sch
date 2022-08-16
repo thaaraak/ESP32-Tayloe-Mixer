@@ -60,7 +60,7 @@ Wire Wire Line
 Wire Wire Line
 	16650 13600 16650 12700
 $Comp
-L Xenir:Capacitor C30
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C30
 U 1 1 5EE9C731
 P 17750 11350
 F 0 "C30" H 17650 11450 59  0000 L BNN
@@ -112,7 +112,7 @@ Wire Wire Line
 Wire Wire Line
 	12850 11700 12850 11300
 $Comp
-L Xenir:Resistor R1
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R1
 U 1 1 5EF82F89
 P 10450 11300
 F 0 "R1" H 10450 11360 28  0000 C BNN
@@ -123,7 +123,7 @@ F 3 "" H 10450 11300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Resistor R3
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R3
 U 1 1 5EF82F8F
 P 10850 11700
 F 0 "R3" H 10850 11760 28  0000 C BNN
@@ -134,7 +134,7 @@ F 3 "" H 10850 11700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Resistor R11
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R11
 U 1 1 5EF82F95
 P 12650 11300
 F 0 "R11" H 12650 11360 28  0000 C BNN
@@ -145,7 +145,7 @@ F 3 "" H 12650 11300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Resistor R13
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R13
 U 1 1 5EF82F9B
 P 13050 11700
 F 0 "R13" H 13050 11760 28  0000 C BNN
@@ -156,7 +156,7 @@ F 3 "" H 13050 11700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Resistor R2
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R2
 U 1 1 5EF82FC5
 P 10450 12800
 F 0 "R2" H 10450 12860 28  0000 C BNN
@@ -167,7 +167,7 @@ F 3 "" H 10450 12800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Resistor R4
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R4
 U 1 1 5EF82FCB
 P 10850 13200
 F 0 "R4" H 10850 13260 28  0000 C BNN
@@ -178,7 +178,7 @@ F 3 "" H 10850 13200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Resistor R12
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R12
 U 1 1 5EF82FD1
 P 12650 12800
 F 0 "R12" H 12650 12860 28  0000 C BNN
@@ -189,7 +189,7 @@ F 3 "" H 12650 12800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Resistor R14
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R14
 U 1 1 5EF82FD7
 P 13050 13200
 F 0 "R14" H 13050 13260 28  0000 C BNN
@@ -218,7 +218,7 @@ Connection ~ 11250 11200
 Wire Wire Line
 	17050 12200 17050 12400
 $Comp
-L Xenir:FST3253 U8
+L ESP32-Tayloe-Mixer-rescue:FST3253-Xenir U8
 U 1 1 6E1B97F5
 P 18200 11050
 F 0 "U8" H 17650 9650 59  0000 L BNN
@@ -310,7 +310,7 @@ $EndComp
 Wire Wire Line
 	16800 11800 17050 11800
 $Comp
-L Xenir:Resistor R17
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R17
 U 1 1 5EEBB81B
 P 15200 11950
 F 0 "R17" H 15200 12025 28  0000 C CNN
@@ -321,7 +321,7 @@ F 3 "" H 15200 11850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Resistor R18
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R18
 U 1 1 5EEBC201
 P 15200 12400
 F 0 "R18" H 15200 12475 28  0000 C CNN
@@ -332,7 +332,7 @@ F 3 "" H 15200 12300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Resistor R19
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R19
 U 1 1 5EEBC4DE
 P 15200 12850
 F 0 "R19" H 15200 12925 28  0000 C CNN
@@ -343,7 +343,7 @@ F 3 "" H 15200 12750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Resistor R20
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R20
 U 1 1 5EEBCADD
 P 15200 13300
 F 0 "R20" H 15200 13375 28  0000 C CNN
@@ -354,7 +354,7 @@ F 3 "" H 15200 13200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Capacitor C22
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C22
 U 1 1 5EEBD3D7
 P 15400 12100
 F 0 "C22" H 15350 11900 28  0000 L BNN
@@ -365,7 +365,7 @@ F 3 "" H 15400 12100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Xenir:Capacitor C23
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C23
 U 1 1 5EEBE874
 P 15400 12550
 F 0 "C23" H 15350 12750 28  0000 L BNN
@@ -387,7 +387,7 @@ F 3 "" H 15400 12700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Capacitor C24
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C24
 U 1 1 5EED34B4
 P 15400 13000
 F 0 "C24" H 15400 13200 28  0000 L BNN
@@ -409,7 +409,7 @@ F 3 "" H 15400 13150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Capacitor C25
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C25
 U 1 1 5EED8105
 P 15400 13450
 F 0 "C25" H 15350 13250 28  0000 L BNN
@@ -488,7 +488,7 @@ Text GLabel 15950 12800 1    50   Input ~ 0
 Text GLabel 15950 13300 1    50   Input ~ 0
 270
 $Comp
-L Xenir:LM358 U1
+L ESP32-Tayloe-Mixer-rescue:LM358-Xenir U1
 U 3 1 5EAF812F
 P 6200 1750
 F 0 "U1" H 6050 1700 39  0000 L BNN
@@ -510,7 +510,7 @@ F 3 "" H 6100 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:LM358 U2
+L ESP32-Tayloe-Mixer-rescue:LM358-Xenir U2
 U 3 1 5EB0186E
 P 6650 1750
 F 0 "U2" H 6500 1700 39  0000 L BNN
@@ -521,7 +521,7 @@ F 3 "" H 6600 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Capacitor C12
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C12
 U 1 1 5EB751C3
 P 8200 1750
 F 0 "C12" H 8200 1875 28  0000 C CNN
@@ -534,7 +534,7 @@ $EndComp
 Wire Wire Line
 	5750 1450 6100 1450
 $Comp
-L Xenir:LM358 U1
+L ESP32-Tayloe-Mixer-rescue:LM358-Xenir U1
 U 2 1 5F197569
 P 13150 11200
 F 0 "U1" H 13000 11150 70  0000 L BNN
@@ -547,7 +547,7 @@ $EndComp
 Connection ~ 12850 11300
 Connection ~ 13450 11200
 $Comp
-L Xenir:LM358 U2
+L ESP32-Tayloe-Mixer-rescue:LM358-Xenir U2
 U 2 1 5F1992ED
 P 13150 12700
 F 0 "U2" H 13000 12650 70  0000 L BNN
@@ -564,7 +564,7 @@ Wire Wire Line
 	6100 1450 6550 1450
 Connection ~ 6550 1450
 $Comp
-L Xenir:Capacitor C13
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C13
 U 1 1 5F243F69
 P 8550 1750
 F 0 "C13" H 8550 1875 28  0000 C CNN
@@ -600,7 +600,7 @@ Text GLabel 9950 12800 0    50   Input ~ 0
 I_Out
 Connection ~ 10650 11300
 $Comp
-L Xenir:LM358 U2
+L ESP32-Tayloe-Mixer-rescue:LM358-Xenir U2
 U 1 1 5F344BC8
 P 10950 12700
 F 0 "U2" H 10800 12650 70  0000 L BNN
@@ -612,7 +612,7 @@ F 3 "" H 10900 12650 50  0001 C CNN
 $EndComp
 Connection ~ 10650 12800
 $Comp
-L Xenir:LM358 U1
+L ESP32-Tayloe-Mixer-rescue:LM358-Xenir U1
 U 1 1 5F334557
 P 10950 11200
 F 0 "U1" H 10800 11150 70  0000 L BNN
@@ -623,7 +623,7 @@ F 3 "" H 10900 11150 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Xenir:si5351 U203
+L ESP32-Tayloe-Mixer-rescue:si5351-Xenir U203
 U 1 1 5E9EA10D
 P 16650 5500
 F 0 "U203" H 16400 5100 50  0000 C CNN
@@ -696,7 +696,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 1650 5750 2050
 $Comp
-L Xenir:Capacitor C1
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C1
 U 1 1 6104EF39
 P 10100 11300
 F 0 "C1" H 10050 11500 28  0000 L BNN
@@ -707,7 +707,7 @@ F 3 "" H 10100 11300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Xenir:Capacitor C2
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C2
 U 1 1 610508A9
 P 10100 12800
 F 0 "C2" H 10050 13000 28  0000 L BNN
@@ -720,7 +720,7 @@ $EndComp
 Text GLabel 15700 5700 0    50   Input ~ 0
 LO_90
 $Comp
-L Xenir:T50_SPLITTER T1
+L ESP32-Tayloe-Mixer-rescue:T50_SPLITTER-Xenir T1
 U 1 1 60EFEA4B
 P 17350 10650
 F 0 "T1" H 17350 9400 50  0000 C CNN
@@ -751,7 +751,7 @@ F 3 "" H 17700 10250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Resistor R148
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R148
 U 1 1 60FC36BE
 P 16800 11150
 F 0 "R148" H 16800 11225 28  0000 C CNN
@@ -762,7 +762,7 @@ F 3 "" H 16800 11050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Xenir:Resistor R147
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R147
 U 1 1 60FC45B4
 P 16550 11150
 F 0 "R147" H 16550 11225 28  0000 C CNN
@@ -831,7 +831,7 @@ F 3 "" H 2600 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Cap_Polarized C11
+L ESP32-Tayloe-Mixer-rescue:Cap_Polarized-Xenir C11
 U 1 1 61126761
 P 1400 1750
 F 0 "C11" H 1400 1525 28  0000 C CNN
@@ -844,7 +844,7 @@ $EndComp
 Wire Wire Line
 	2900 1600 3000 1600
 $Comp
-L Xenir:Cap_Polarized C14
+L ESP32-Tayloe-Mixer-rescue:Cap_Polarized-Xenir C14
 U 1 1 61126762
 P 3100 1750
 F 0 "C14" H 3100 1525 28  0000 C CNN
@@ -869,7 +869,7 @@ Wire Wire Line
 	3700 1600 3000 1600
 Connection ~ 3000 1600
 $Comp
-L Xenir:BNC J2
+L ESP32-Tayloe-Mixer-rescue:BNC-Xenir J2
 U 1 1 5F509493
 P 21050 9950
 F 0 "J2" H 20950 9800 50  0000 C CNN
@@ -902,7 +902,7 @@ F 3 "" H 1300 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Cap_Polarized C16
+L ESP32-Tayloe-Mixer-rescue:Cap_Polarized-Xenir C16
 U 1 1 610A03F4
 P 2050 1750
 F 0 "C16" H 2050 1525 28  0000 C CNN
@@ -925,7 +925,7 @@ F 3 "" H 1950 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Capacitor C17
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C17
 U 1 1 613E4B97
 P 2250 1750
 F 0 "C17" H 2250 1875 28  0000 C CNN
@@ -950,7 +950,7 @@ F 3 "" H 2250 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Resistor R15
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R15
 U 1 1 613DBAD6
 P 3700 1800
 F 0 "R15" H 3700 1875 28  0000 C CNN
@@ -962,7 +962,7 @@ F 3 "" H 3700 1700 50  0001 C CNN
 $EndComp
 Connection ~ 3700 1600
 $Comp
-L Xenir:Resistor R16
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R16
 U 1 1 613DCC79
 P 3700 2400
 F 0 "R16" H 3700 2475 28  0000 C CNN
@@ -973,7 +973,7 @@ F 3 "" H 3700 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Xenir:Cap_Polarized C18
+L ESP32-Tayloe-Mixer-rescue:Cap_Polarized-Xenir C18
 U 1 1 613DDE0F
 P 3500 2350
 F 0 "C18" H 3500 2125 28  0000 C CNN
@@ -984,7 +984,7 @@ F 3 "" H 3500 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Xenir:Capacitor C19
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C19
 U 1 1 613DE98D
 P 4000 2350
 F 0 "C19" H 4000 2475 28  0000 C CNN
@@ -1071,7 +1071,7 @@ F 3 "" H 15700 9350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Resistor R5
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R5
 U 1 1 612306CF
 P 15700 9550
 F 0 "R5" H 15700 9625 28  0000 C CNN
@@ -1082,7 +1082,7 @@ F 3 "" H 15700 9450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Xenir:Resistor R6
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R6
 U 1 1 612306DA
 P 15700 10150
 F 0 "R6" H 15700 10225 28  0000 C CNN
@@ -1093,7 +1093,7 @@ F 3 "" H 15700 10050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Xenir:Capacitor C4
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C4
 U 1 1 612306EE
 P 16000 10100
 F 0 "C4" H 16000 10225 28  0000 C CNN
@@ -1128,7 +1128,7 @@ Wire Wire Line
 	16000 9950 17000 9950
 Connection ~ 16000 9950
 $Comp
-L Xenir:Capacitor C5
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C5
 U 1 1 613306E3
 P 18050 9900
 F 0 "C5" H 18050 10025 28  0000 C CNN
@@ -1148,7 +1148,7 @@ Wire Wire Line
 	18050 10250 18050 10050
 Connection ~ 17700 10250
 $Comp
-L Xenir:Inductor L1
+L ESP32-Tayloe-Mixer-rescue:Inductor-Xenir L1
 U 1 1 6133F735
 P 18700 9650
 F 0 "L1" H 18700 9600 50  0000 C CNN
@@ -1159,7 +1159,7 @@ F 3 "" H 18700 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Capacitor C7
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C7
 U 1 1 61340140
 P 19250 9650
 F 0 "C7" H 19250 9775 28  0000 C CNN
@@ -1170,7 +1170,7 @@ F 3 "" H 19250 9500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Xenir:Resistor R7
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R7
 U 1 1 613406A2
 P 19600 9950
 F 0 "R7" H 19600 10025 28  0000 C CNN
@@ -1207,7 +1207,7 @@ Wire Wire Line
 	1300 1600 1950 1600
 Connection ~ 1300 1600
 $Comp
-L Xenir:PCBARTISTS-ES8388 U202
+L ESP32-Tayloe-Mixer-rescue:PCBARTISTS-ES8388-Xenir U202
 U 1 1 6126113C
 P 18050 3950
 F 0 "U202" H 18000 3900 50  0000 C CNN
@@ -1218,7 +1218,7 @@ F 3 "" H 18000 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:ESP32-15-PIN U201
+L ESP32-Tayloe-Mixer-rescue:ESP32-15-PIN-Xenir U201
 U 1 1 61262009
 P 14900 3950
 F 0 "U201" H 14299 4976 50  0000 L BNN
@@ -1351,7 +1351,7 @@ F 3 "" H 4150 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Capacitor C78
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C78
 U 1 1 612A288A
 P 3450 3550
 F 0 "C78" H 3450 3675 28  0000 C CNN
@@ -1362,7 +1362,7 @@ F 3 "" H 3450 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Xenir:Cap_Polarized C79
+L ESP32-Tayloe-Mixer-rescue:Cap_Polarized-Xenir C79
 U 1 1 612A2CBF
 P 3900 3550
 F 0 "C79" H 3900 3325 28  0000 C CNN
@@ -1381,7 +1381,7 @@ Wire Wire Line
 	3800 3400 4150 3400
 Connection ~ 3800 3400
 $Comp
-L Xenir:Audio_Jack J3
+L ESP32-Tayloe-Mixer-rescue:Audio_Jack-Xenir J3
 U 1 1 612B3944
 P 21050 4600
 F 0 "J3" H 20650 4250 50  0000 C CNN
@@ -1398,7 +1398,7 @@ Wire Wire Line
 Wire Wire Line
 	19950 3950 18850 3950
 $Comp
-L Xenir:Capacitor C203
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C203
 U 1 1 612B729F
 P 19550 2850
 F 0 "C203" H 19550 2975 28  0000 C CNN
@@ -1409,7 +1409,7 @@ F 3 "" H 19550 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Xenir:Resistor R201
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R201
 U 1 1 612B846F
 P 19350 2700
 F 0 "R201" H 19350 2775 28  0000 C CNN
@@ -1433,7 +1433,7 @@ F 3 "" H 19550 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Capacitor C204
+L ESP32-Tayloe-Mixer-rescue:Capacitor-Xenir C204
 U 1 1 612C0A2F
 P 20200 3150
 F 0 "C204" H 20200 3275 28  0000 C CNN
@@ -1444,7 +1444,7 @@ F 3 "" H 20200 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Xenir:Resistor R202
+L ESP32-Tayloe-Mixer-rescue:Resistor-Xenir R202
 U 1 1 612C0A39
 P 20000 3000
 F 0 "R202" H 20000 3075 28  0000 C CNN
@@ -1537,7 +1537,7 @@ F 3 "" H 20850 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:Trimpot VR1
+L ESP32-Tayloe-Mixer-rescue:Trimpot-Xenir VR1
 U 1 1 612E7453
 P 13000 3450
 F 0 "VR1" H 12850 3150 50  0000 C CNN
